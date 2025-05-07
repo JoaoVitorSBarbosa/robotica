@@ -1,0 +1,9 @@
+function dh = denavit(teta,d,a,alfa)
+
+dh = 
+[
+    cosd(teta) -cosd(alpha)*sind(teta) sind(alfa)*sind(teta) a*cos(teta);
+    sind(teta)
+    0
+    0
+];
